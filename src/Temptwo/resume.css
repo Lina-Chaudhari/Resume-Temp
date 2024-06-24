@@ -1,0 +1,140 @@
+.containertwo {
+  max-width: 800px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: 3px;
+  padding: 40px;
+  color: #222;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 50px;
+}
+
+.headertwo {
+  margin-bottom: 30px;
+}
+
+.headertwo .full-name {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.headertwo .contact-infotwo {
+  margin-bottom: 20px;
+}
+
+.headertwo .email, .headertwo .phone {
+  color: #999;
+  font-weight: 300;
+}
+
+.headertwo .separators2 {
+  height: 10px;
+  display: inline-block;
+  border-left: 2px solid #999;
+  margin: 0 10px;
+}
+
+.headertwo .position2 {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.detailstwo {
+  line-height: 1.8;
+}
+
+.detailstwo .sectiontwo {
+  margin-bottom: 40px;
+}
+
+.detailstwo .sectiontwo:last-of-type {
+  margin-bottom: 0;
+}
+
+.detailstwo .section__title {
+  letter-spacing: 2px;
+  color: #54afe4;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.detailstwo .section__list-item {
+  margin-bottom: 20px;
+}
+
+.detailstwo .section__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.detailstwo .left2, .detailstwo .right2 {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%; /* Adjusted to take full width */
+}
+
+.detailstwo .left2 {
+  width: 60%;
+}
+
+.detailstwo .right2 {
+  width: 39%;
+  text-align: right;
+}
+
+.detailstwo .name {
+  font-weight: bold;
+}
+
+.detailstwo a {
+  text-decoration: none;
+  color: #000;
+  font-style: italic;
+}
+
+.detailstwo a:hover {
+  text-decoration: underline;
+}
+
+.detailstwo .skills__item {
+  margin-bottom: 10px;
+}
+
+.detailstwo .skills__item .right2 input {
+  display: none;
+}
+
+.detailstwo .skills__item .right2 label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #c3def3;
+  border-radius: 20px;
+  margin-right: 3px;
+}
+
+.detailstwo .skills__item .right2 input:checked + label {
+  background: #79a9ce;
+}
+
+@media print {
+  body {
+    font-size: 12px;
+  }
+  button {
+    display: none;
+  }
+  .detailstwo .left2,
+  .detailstwo .right2 {
+    display: block;
+    width: auto;
+    margin-right: 0;
+    text-align: left;
+    vertical-align: top;
+  }
+}

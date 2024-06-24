@@ -1,0 +1,301 @@
+
+.main-sectionseven7{
+    width: 800px;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+
+.main-sectionseven7 .left-part7{
+    width: 45%;
+    height: 100%;
+    background-color:#002D62;
+    padding: 2.8rem;
+}
+
+.left-part7 .photo-container7{
+    margin-bottom: 2.2rem;
+}
+.left-part7 .photo-container7{
+    margin-bottom: 2.2rem;
+}
+
+.left-part7 .photo-container7 img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    box-shadow: rgba(232, 237, 241, 0.2) 0px 8px 24px;
+}
+
+.title7{
+    font-size:15px;
+    text-transform: uppercase;
+    padding: 0.6rem;
+    background-color: white;
+    color: #444440;
+    text-align: center;
+    margin: 1.4rem 0;
+}
+
+.contact-container7{
+    margin-bottom: 2.2rem;
+}
+
+.contact-container7 .contact-list7{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 15px;
+}
+
+.education-container7{
+    margin-bottom: 2.2rem;
+}
+
+.education-container7 .course7{
+    margin-bottom: 1rem;
+    color:white;
+}
+ 
+.education-container7 .education-title7{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: .3rem;
+}
+
+.education-container7 .college-name7{
+    margin-bottom: 0.3rem;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+.education-container7 .education-date7{
+    font-size: 15px;
+}
+
+.skills-container7 .skill7{
+    display: flex;
+    color: white;
+    margin-bottom: 0.6rem;
+}
+
+.skills-container7 .skill7 .right-skill7 .outer-layer7{
+    background-color: #BBBBBB;
+    height:0.4rem;
+    width: 5rem;
+    border-radius: 0.4rem;
+}
+
+.skills-container7 .skill7 .right-skill7 .inner-layer7{
+    background-color: white;
+    height: 100%;
+    border-radius: inherit;
+}
+.right-part7{
+    padding: 2.8rem;
+}
+
+.right-part7 .banner{
+    color: #4D4D4F;
+    margin-bottom: 2.2rem;
+}
+
+.right-part7 .banner .firstname7{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.right-part7 .banner .lastname7{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 7;
+    margin-top: -1rem;
+}
+
+.right-part7 .banner .position7{
+    letter-spacing: 4;
+    margin-top:10px;
+    font-size: 15px;
+}
+
+.work-container7{
+    margin-top: 5rem;
+}
+
+.work-containe7r .work7:not(:last-child){
+    margin-bottom: 1.8rem;
+}
+
+.work-container7 .work7 .job-date7{
+    display: flex;
+    justify-content: space-between;
+    color: #4D4D4F;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.work-container7 .work7 .company-name7{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #4D4D4F;
+
+}
+
+.work-container7 .work7 .work-text7{
+    color: #737373;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1rem;
+}
+
+.references-container7 .references7{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: #4D4D4F;
+}
+
+.references-container7 .references7 .name7{
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.references-container7 .references7 .company-name7{
+    margin: 0.5rem 0;
+    font-size:12px;
+}
+
+.references-container7 .references7 .phone7{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #414042;
+}
+.references-container7 .references7 .phone7 p{
+    margin: 0.4rem 0;
+}
+
+.references-container7 .references7 .phone7 .phone-text7{
+    font-weight: 600;
+}
+
+.text-left7{
+    text-align: left;
+}
+/* For screens smaller than 768px (standard tablets and mobiles) */
+@media (max-width: 768px) {
+    .main-sectionseven7 {
+        width: 100%;
+        flex-direction: column; /* Stack items vertically */
+        box-shadow: none;
+    }
+
+    .main-sectionseven7 .left-part7,
+    .right-part7 {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .left-part7 .photo-container7 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .title7 {
+        font-size: 14px;
+        padding: 0.4rem;
+        margin: 1rem 0;
+    }
+
+    .contact-container7 .contact-list7 {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .education-container7 .course7,
+    .education-container7 .education-title7,
+    .education-container77 .college-name7,
+    .education-container .education-date7,
+    .work-container7 .work7 .job-date7,
+    .work-containe7r .work7 .company-name7,
+    .work-container7 .work7 .work-text7,
+    .references-container7 .references7 .name7,
+    .references-container7 .references7 .company-name7,
+    .references-container7 .references7 .phone7 p,
+    .references-container7 .references7 .phone7 .phone-text7 {
+        font-size: 13px;
+    }
+
+    .skills-container7 .skill7 .right-skill7 .outer-layer7 {
+        width: 100%;
+    }
+}
+@media print {
+    .main-sectionseven7 {
+        width: 100%;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .main-sectionseven7 .left-part7,
+    .right-part7 {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .left-part7 .photo-container7 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .title7 {
+        font-size: 14px;
+        padding: 0.4rem;
+        margin: 1rem 0;
+        background-color: transparent;
+        color: black; /* Ensure text is readable on print */
+    }
+
+    .contact-container7 .contact-list7 {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .education-container7 .course7,
+    .education-container7 .education-title7,
+    .education-container7 .college-name7,
+    .education-container7 .education-date7,
+    .work-container7 .work7 .job-date7,
+    .work-container7 .work7 .company-name7,
+    .work-container7 .work7 .work-text7,
+    .references-container7 .references7 .name7,
+    .references-container7 .references7 .company-name7,
+    .references-container7 .references7 .phone7 p,
+    .references-container7 .references7 .phone7 .phone-text7 {
+        font-size: 12px;
+    }
+
+    .skills-container7 .skill7 .right-skill7 .outer-layer7 {
+        width: 100%;
+    }
+
+    .text-left7 {
+        text-align: left;
+    }
+
+    /* Hide elements not relevant for print */
+    .banner,
+    .job-date7,
+    .company-name7,
+    .work-text7,
+    .references7,
+    .phone7 {
+        display: none;
+    }
+}
