@@ -1,0 +1,165 @@
+.App21 {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .resume21 {
+    background-color: white;
+    padding: 20px;
+    width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #hding{
+  margin: 0;
+  padding: 10px 20px;
+  position: relative;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  }
+  
+  .header21 {
+    text-align: center;
+  }
+  
+  .header21 h1 {
+    margin-bottom: 0;
+    color: #333;
+  }
+  
+  .header21 h2 {
+    margin-top: 0;
+    color: #0073b1;
+  }
+  
+  
+  .header21 p {
+    color: #555;
+  }
+  
+  .main-content21 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-column21, .right-column21 {
+    width: 48%;
+  }
+  
+  #section21 {
+    margin-bottom: 20px;
+  }
+  
+  .h3 {
+    border-bottom: 2px solid #0073b1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #0073b1;
+  }
+  
+  .job21 h4, .education21 h4 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .job21 p, .education21 p, .certification21 p, .passions21 p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .list ul {
+    margin: 0;
+    padding-left: 20px;
+    color: #555;
+  }
+  
+  .list ul li {
+    margin-bottom: 5px;
+  }
+  
+  .strengths21 ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .strengths21 ul li:before {
+    content: "🏆";
+    color: #0073b1;
+    margin-right: 10px;
+  }
+  
+  .skills21 {
+    background-color: #e7f3ff; /* Light blue background */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .skills21 ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .skills21 ul li:before {
+    content: "⭐";
+    color: #0073b1;
+    margin-right: 10px;
+  }
+  
+  .certification21 p, .passions21 p {
+    margin: 5px 0;
+  }
+  
+  /* Print styles */
+  @media print {
+    .App21 {
+      background-color: white;
+      padding: 0;
+    }
+  
+    .resume21 {
+      box-shadow: none;
+      width: 100%;
+      padding: 0;
+    }
+  
+    .header21 h1, .header21 h2, .header21 p {
+      color: black;
+    }
+  
+    .h3 {
+      border-bottom-color: black;
+      color: black;
+    }
+  
+    .skills21 {
+      background-color: white; /* Remove background color for printing */
+    }
+  
+    .skills21 ul li:before, .strengths21 ul li:before {
+      color: black; /* Change icon color to black for printing */
+    }
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 800px) {
+    .main-content21 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-column21, .right-column21 {
+      width: 100%;
+    }
+  
+    .resume21 {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  

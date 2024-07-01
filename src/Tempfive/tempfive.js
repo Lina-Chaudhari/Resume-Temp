@@ -45,7 +45,7 @@ const StyledButtonNext = styled.button`
   }
 `;
 
-const Tempfive = () => {
+const Temp5 = () => {
   
   const downloadPDF = () => { 
     const element = document.querySelector('.mainfive');
@@ -168,4 +168,4 @@ const Tempfive = () => {
     </>
       );
     }
-  export default Tempfive;
+  export default Temp5;

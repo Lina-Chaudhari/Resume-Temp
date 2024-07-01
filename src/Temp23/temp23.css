@@ -1,0 +1,135 @@
+.App23 {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .resume23 {
+    background-color: white;
+    width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header23 {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .header23 h1 {
+    margin-bottom: 5px;
+  }
+  
+  .header23 h2 {
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  .header23 .contact-info23 {
+    margin-top: 10px;
+  }
+  
+  .main-content23 {
+    display: flex;
+  }
+  
+  .left-column23 {
+    width: 55%;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .right-column23 {
+    width: 45%;
+    color: black;
+    padding: 20px;
+  }
+  
+  #section23 {
+    margin-bottom: 20px;
+  }
+  
+  .hedingh3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .job23, .education23 {
+    margin-bottom: 20px;
+  }
+  
+  .h4 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .job-meta23, .edu-date23 {
+    color: #555;
+    font-style: italic;
+  }
+  
+  .resume23 ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .resume23 ul li {
+    margin-bottom: 5px;
+    list-style: none;
+  }
+  
+  .projects23 ul li:before {
+    content: "📘";
+    margin-right: 10px;
+  }
+  
+  .achievements23 ul li:before {
+    content: "⭐";
+    margin-right: 10px;
+  }
+  
+  .skills23 ul li:before {
+    content: "🔧";
+    margin-right: 10px;
+  }
+  
+  .certification23 p, .passions p {
+    margin: 5px 0;
+  }
+  
+  /* Print styles */
+  @media print {
+    .App {
+      background-color: white;
+      padding: 0;
+    }
+  
+    .resume {
+      box-shadow: none;
+      width: 100%;
+      padding: 0;
+    }
+  
+    .header, .left-column, .right-column {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .header h1, .header h2, .header p, .main-content h3, .main-content h4, .main-content p, .main-content ul li {
+      color: black;
+    }
+  
+    .main-content h3 {
+      border-bottom: 2px solid black;
+    }
+  
+    .sidebar h3 {
+      color: black;
+    }
+  }
+  
