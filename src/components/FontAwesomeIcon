@@ -1,0 +1,4 @@
+<FontAwesomeIcon icon={faSignInAlt} />
+<FontAwesomeIcon icon={faUser} />
+<FontAwesomeIcon icon={faEye} />
+<FontAwesomeIcon icon={faArrowRight} />

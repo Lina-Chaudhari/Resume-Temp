@@ -1,0 +1,96 @@
+.container2 {
+  display: flex;
+  flex-wrap: wrap; /* Ensure content wraps on smaller screens */
+  width: 90%; /* Adjusted width for responsiveness */
+  max-width: 800px; /* Maximum width for larger screens */
+  margin: 20px auto; /* Center align on the page */
+  font-family: 'Georgia', serif;
+  color: #2D3A40; /* Main text color */
+  background-color: #F3F7F0; /* Background color */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Contain content within the box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+}
+
+/* Sidebar */
+.sidebar2 {
+  width: 100%; /* Take full width on smaller screens */
+  max-width: 35%; /* Adjusted width for sidebar */
+  background-color: #0C3343; /* Dark teal background color */
+  padding: 20px; /* Increased padding for better spacing */
+  color: white;
+  text-align: center; /* Center align text */
+}
+
+/* Profile Image */
+.profile-image2 {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  cursor: pointer; /* Indicate the image is clickable */
+}
+
+/* Main Content */
+.main-content2 {
+  width: 100%; /* Take full width on smaller screens */
+  max-width: 65%; /* Adjusted width for main content */
+  padding: 20px; /* Increased padding for better spacing */
+  background-color: #E7F1DC; /* Light background color */
+}
+
+/* Header */
+.header2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.name2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #0C3343; /* Dark teal color for the name */
+}
+
+.title2 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 300;
+  color: #2D3A40; /* Adjusted color for contrast */
+}
+
+/* Section */
+.section2 {
+  margin-bottom: 20px;
+}
+
+.section-title2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0C3343; /* Dark teal for section titles */
+}
+
+.text2 {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  line-height: 1.5;
+}
+
+/* Adjustments for Print */
+@media print {
+  .container2 {
+    box-shadow: none; /* Remove shadow for print */
+    background-color: white; /* White background for print */
+  }
+
+  .sidebar2, .main-content2 {
+    width: 100%; /* Full width for print */
+    max-width: 100%; /* Ensure content fits within printable area */
+  }
+
+  .profile-image2 {
+    display: none; /* Hide profile image in print */
+  }
+}

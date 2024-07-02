@@ -1,0 +1,220 @@
+
+.App24 {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container24 {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .header24 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profileFieldset24 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .profileTitle24 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profileTitle24 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .profileText24 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profileText24 h3,
+  .profileText24 p {
+    margin: 5px 0;
+  }
+  
+  .profileDetails24 {
+    flex: 1;
+  }
+  
+  .title24 {
+    margin: 10px 0;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .summary24 {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .contactInfo24 {
+    margin-top: 10px;
+    white-space: nowrap; /* Ensures content stays on one line */
+  }
+  
+  .contactItem24 {
+    display: inline-block; /* Display items inline */
+    margin-right: 10px; /* Add some spacing between items */
+    font-size: 1em;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .content24 {
+    display: flex;
+  }
+  
+  .leftColumn24 {
+    flex: 1;
+    padding-right: 10px;
+  }
+  
+  .rightColumn24 {
+    flex: 1;
+    padding-left: 10px;
+  }
+  
+  .section24 {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .sectionTitle24 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .job24,
+  .education24,
+  .project24 {
+    margin-bottom: 20px;
+  }
+  
+  .jobTitle24,
+  .company24 {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .list24 {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .skillsList24 li,
+  .languagesList24 li,
+  .interestsList24 li {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0; 
+    display: inline-block;
+    font-size: 0.9em;
+  }
+  .skillsList24,
+  .languagesList24,
+  .interestsList24 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .interestsList24 ul li {
+    margin-left: 5px;
+  }
+ 
+  .skillsList24 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .project24 strong {
+    font-size: 1.1em;
+  }
+  
+  .project24 {
+    line-height: 1.6;
+  }
+  
+  @media print {
+    .App24 {
+      padding: 0;
+    }
+    
+    .header24 {
+      display: none;
+    }
+    
+    .profileFieldset24 {
+      border: none;
+      border-radius: 0;
+      padding: 0;
+    }
+    
+    .contactItem24 {
+      margin-right: 0;
+    }
+    
+    .leftColumn24,
+    .rightColumn24 {
+      flex: none;
+      width: 100%;
+      padding: 0;
+    }
+    
+    .section24 {
+      border: none;
+      border-radius: 0;
+      padding: 10px 0;
+      margin-bottom: 10px;
+    }
+    
+    .sectionTitle24 {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+    
+    .list24 {
+      list-style-type: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+    
+    .skillsList24 li,
+    .languagesList li,
+    .interestsList24 li {
+      background-color: transparent;
+      padding: 0;
+      margin: 0;
+      font-size: 1em;
+    }
+  }
+  

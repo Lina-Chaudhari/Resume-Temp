@@ -1,0 +1,240 @@
+:root{
+    --bgcolor:#c0c3cd;
+    --black:black;
+    --white:#f4f7ff;
+    --gray:#d8dce4;
+    --lightgray:#8e9095;
+}
+.top-sec{
+    border: 3px solid black;
+    margin: 0;
+}
+.top-leftsix{padding: 25px; float: left;}
+.name{font-size: 15px;}
+.n-p{
+    font-size: 15px;
+    font-weight: 400;}
+.line{
+    border: none;
+    height: 2px;
+    background: black;
+    transform: rotateZ(90deg);
+    margin-right: -200px;
+    float: right;
+    margin-top: -39px;
+}
+.top-rightsix{
+    float: left;
+    width: 45%;
+}
+.clearfix{
+    clear: both;
+}
+.resume-boxsix{
+    width: 782px;
+    height: 1000px;
+    background: var(--white);
+    box-shadow: 5px 21px 20px 20px #3d3f4238;
+}
+.leftsix-section{
+    background: #fcf1db;
+    width: 250px;
+    height: 1000px;
+    float: left;
+}
+.profilesix{
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+}
+
+.porfilesix-pic{ 
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    border-radius: 50%;
+}
+
+.info{
+    margin-top: 30px;
+}
+.skill{margin-left: 35px; font-size: 15px;}
+.skill li{list-style-type: square; padding-top: 10px;}
+.skill li span{float: right;
+    padding-right: 18px;}
+
+.heading{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 15px;
+    text-align: center;
+    border: 3px solid black;
+    padding: 5px;
+}
+.s-box p{float: left; margin-bottom: 7px; font-weight: 600;margin-top: 7px;}
+.s-box p:nth-child(2){
+    padding-left: 10px;
+}
+.s-box p:nth-child(4){
+    padding-left: 10px;
+}
+.s-box p img{
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 2px;
+    padding: 2px;
+}
+.inp{padding: 15px;}
+.p1{
+    font-size: 15px;
+    padding-left: 170px;
+    font-weight: bold;
+}
+.p1 span{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.rightsix-section{
+    padding: 0px 30px 0px 30px;
+    background: var(--white);
+    width: 68%;
+    float: left;
+    height: 1000px;
+}
+.rightsix-heading img{
+    width: 36px;
+    padding: 7px;
+    border-radius: 17px;
+    float: left;
+    display: inline-block;
+    margin-top: -2px;
+}
+.edusix{padding: 20px;}
+.p3{
+    margin-top: 20px;
+    color: var(--lightgray);
+    text-align: justify;
+    word-spacing: -4px;
+}
+.leftsix{
+    width: 25%;
+    float: left;
+}
+.rightsix{
+    width: 75%;
+    float: left;
+}
+.lr-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.p4{
+    font-size: 14px;
+    font-weight: 600;
+}
+.p4d{
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+.p4d::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 10px;
+    left: 97px;
+    top: 3px;
+}
+.p4d::before{
+    content: '';
+    width: 2px;
+    height: 100px;
+    background: black;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+.p5{
+    font-size: 15px;
+    color: var(--lightgray);
+}
+@media only screen and (max-width: 768px) {
+    .resume-boxsix {
+      width: 100%;
+      margin: 20px auto;
+      padding: 20px;
+    }
+  
+    .leftsix-section {
+      width: 100%;
+      height: auto;
+    }
+  
+    .rightsix-section {
+      width: 100%;
+      float: none;
+      padding: 10px;
+    }
+  
+    .rightsix-heading img {
+      margin-top: 0;
+    }
+  
+    .leftsix, .rightsix {
+      width: 100%;
+      float: none;
+    }
+  
+    .lr-box {
+      width: 100%;
+    }
+  
+    .s-box {
+      background: none;
+      padding: 10px;
+    }
+  
+    .s-box p:nth-child(2), .s-box p:nth-child(4) {
+      padding-left: 0;
+    }
+  
+    .line {
+      display: none;
+    }
+  
+    .top-leftsix, .top-rightsix {
+      width: 100%;
+      float: none;
+    }
+  }
+  
+
+  @media print {
+    .resume-boxsix {
+      margin: 0;
+      box-shadow: none;
+    }
+  
+    .line {
+      display: none;
+    }
+  
+    .top-sec {
+      display: none;
+    }
+  
+    .leftsix-section, .rightsix-section {
+      width: 100%;
+      float: none;
+      margin-bottom: 20px;
+    }
+  
+    .resume-boxsix, .top-sec {
+      width: 100%;
+    }
+  }
