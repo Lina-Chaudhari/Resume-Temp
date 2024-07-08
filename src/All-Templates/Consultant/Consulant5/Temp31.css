@@ -1,0 +1,200 @@
+/* Temp31.css */
+
+.resume31 {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.header31 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header31 h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.header31 h2 {
+  font-size: 1.5em;
+  color: rgb(30, 144, 255);
+}
+
+.contact-info31 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.contact-info31 p {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.contact-info31 span {
+  margin-left: 15px;
+}
+
+.contact-info31 svg {
+  margin-right: 5px;
+  color: rgb(30, 144, 255);
+}
+
+.main-content31 {
+  display: flex;
+  width: 100%;
+}
+
+.side-content31 {
+  flex: 1;
+  margin-left: 20px;
+  gap: 20px;
+}
+
+.professional-experience31 {
+  flex: 2;
+  margin-bottom: 20px;
+}
+
+.professional-experience31 h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.job31 {
+  margin-bottom: 15px;
+}
+
+.job31 h4 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.job31 h5 {
+  font-size: 1em;
+  color: rgb(30, 144, 255);
+  margin: 5px 0;
+}
+
+.job31 p {
+  margin: 5px 0;
+  font-style: italic;
+}
+
+.job31 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skills31, .awards31, .certifications31, .languages31 {
+  margin-bottom: 20px;
+}
+
+.skills31 h3, .awards31 h3, .certifications31 h3, .languages31 h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.skills31 ul, .awards31 ul, .certifications31 ul, .languages31 ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills31 li {
+  background-color: rgb(30, 144, 255);
+  color: white;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.awards31 ul li, .certifications31 ul li, .languages31 ul li {
+  margin-bottom: 5px;
+}
+
+.awards31 ul li svg, .certifications31 ul li svg {
+  margin-left: 5px;
+  color: rgb(30, 144, 255);
+}
+
+/* Media queries for mobile screens */
+@media (max-width: 600px) {
+  .resume31 {
+    width: 100%;
+    padding: 10px;
+    box-shadow: none;
+  }
+
+  .header31 h1 {
+    font-size: 1.5em;
+  }
+
+  .header31 h2 {
+    font-size: 1em;
+  }
+
+  .contact-info31 p {
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  .main-content31 {
+    flex-direction: column;
+  }
+
+  .side-content31 {
+    margin-left: 0;
+  }
+}
+
+
+@media print {
+  .resume31 {
+    width: auto;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .header31 h1 {
+    font-size: 2em;
+  }
+
+  .header31 h2 {
+    font-size: 1.2em;
+  }
+
+  .contact-info31 p {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .main-content31 {
+    flex-direction: column;
+  }
+
+  .side-content31 {
+    margin-left: 0;
+  }
+
+  .job31 ul {
+    list-style-type: disc;
+  }
+
+  .skills31 li {
+    display: block;
+    padding: 2px 5px;
+    background-color: transparent;
+    color: black;
+  }
+
+  .awards31 ul li svg, .certifications31 ul li svg {
+    color: black;
+  }
+}
