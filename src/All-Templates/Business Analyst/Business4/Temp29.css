@@ -1,0 +1,117 @@
+:root {
+    --primary-color: #0f805e; /* Dark green for sidebar */
+    --secondary-color: #f8f8f8; /* Light background */
+    --text-color-dark: #333; /* Dark text */
+    --text-color-light: #fff; /* Light text */
+    --accent-color: #dee2e7; /* Blue accent color */
+  }
+  
+  .container29 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    width: 800px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--secondary-color);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  
+  .sidebar29 {
+    background-color: var(--primary-color);
+    color: var(--text-color-light);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .main-content29 {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .section29 {
+    margin-bottom: 20px;
+  }
+  
+  .section-title29 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: var(--text-color-dark);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 5px;
+  }
+  
+  .text29 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .sidebar29 h1 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+  }
+  
+  .experience29 ul,
+  .sidebar29 ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .experience29 ul ul,
+  .sidebar29 ul ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .experience29 li,
+  .sidebar29 li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .contact-info29 {
+    color: blue;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contact-item29 {
+    margin-right: 10px; /* Adjust spacing between items */
+  }
+  /* Media Queries */
+  
+  @media (max-width: 1024px) {
+    .container29 {
+      grid-template-columns: 1fr;
+      width: auto;
+      padding: 10px;
+    }
+  }
+  
+  @media print {
+    body {
+      background-color: white;
+    }
+  
+    .container29 {
+      display: block;
+      width: 100%;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: transparent;
+    }
+  
+    .sidebar29,
+    .main-content29 {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .section-title29 {
+      border-bottom: none;
+    }
+  }
+  

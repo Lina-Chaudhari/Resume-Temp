@@ -1,0 +1,199 @@
+.resume-container30 {
+  margin: 20px;
+}
+
+.resume30 {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 800px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left-column30, .right-column30 {
+  padding: 20px;
+}
+
+.left-column30 {
+  width: 35%;
+  border-right: 1px solid #e4e4e4;
+}
+
+.right-column30 {
+  width: 65%;
+}
+
+.header30 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header30 h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.header30 h2 {
+  margin: 5px 0;
+  color: grey;
+}
+
+.profile-container30 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-image {
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.contact-info30 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.con {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+#section30 {
+  margin-bottom: 20px;
+}
+
+.h230 {
+  border-bottom: 2px solid #e4e4e4;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.resume30 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume30 li {
+  margin-bottom: 5px;
+}
+
+.job30 {
+  margin-bottom: 20px;
+}
+
+.job30 h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.job30 p {
+  margin: 0;
+  font-size: 0.9em;
+  color: grey;
+}
+
+.degree30 {
+  margin-bottom: 20px;
+}
+
+.degree30 h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.degree30 p {
+  margin: 0;
+  font-size: 0.9em;
+  color: grey;
+}
+
+.achievements30, .summary30, .courses30, .education30  {
+  background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .resume30 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left-column30, .right-column30 {
+    width: 100%;
+    border-right: none;
+    padding: 10px;
+  }
+
+  .profile-container30 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header30 h1 {
+    font-size: 1.5em;
+  }
+
+  .header30 h2 {
+    font-size: 1em;
+  }
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media print {
+  body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .resume-container30 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .resume30 {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .left-column30, .right-column30 {
+    width: 100%;
+    border-right: none;
+    padding: 0;
+  }
+
+  .header30, .profile-container30, .achievements30, .summary30, .courses30, .education30 {
+    background-color: #fff;
+    padding: 0;
+  }
+
+  .resume30 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  .resume30 li {
+    margin-bottom: 10px;
+  }
+
+  .achievements30, .summary30, .courses30, .education30 {
+    page-break-inside: avoid;
+  }
+}

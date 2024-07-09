@@ -1,0 +1,167 @@
+
+  .resume27 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-header27 {
+    background-color: #220966;
+   color: white;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-left27 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img27 {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .header-right27 {
+    text-align: right;
+  }
+  
+  .header-right27 h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .header-right27 p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .contact-info27 {
+    text-align: right;
+  }
+  
+  .contact-info27 p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .summary27 {
+    background-color: #1926b4;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin: 30px;
+    margin-top: -5%;
+  }
+  
+  .summary27 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .summary27 p {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .main-content27 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-column27,
+  .right-column27 {
+    width: 48%;
+  }
+  
+  #section27 {
+    margin-bottom: 20px;
+  }
+  
+  #section27 h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #220966 ;
+  }
+  
+  .skills27 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .skills27 ul li {
+    margin: 5px 0;
+  }
+  
+  .education27 p,
+  .work-experience27 p,
+  .projects27 p,
+  .certification27 p {
+    margin: 5px 0;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .resume-header27 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .contact-info27 {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .main-content27 {
+      flex-direction: column;
+    }
+  
+    .left-column27,
+    .right-column27 {
+      width: 100%;
+    }
+  
+    .header-left27 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile-img27 {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .summary27 {
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .summary27 img {
+      margin-bottom: 10px;
+      margin-right: 0;
+    }
+  }
+  
