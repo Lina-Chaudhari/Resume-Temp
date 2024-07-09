@@ -1,0 +1,161 @@
+/* General Styles */
+.resume38 {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .left-side38 {
+    width: 30%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .right-side38 {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .profile-section38 {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .profile-pic38 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .resume38 h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .resume38 h2 {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .section38 {
+    margin-top: 20px;
+  }
+  
+  .section38 h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(30, 144, 255);
+  }
+  
+  .section38 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section38 ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section38 ul li svg {
+    margin-right: 10px;
+    color: rgb(30, 144, 255);
+  }
+  
+  .contact-section38 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  .contact-section38 ul li {
+    margin-bottom: 5px;
+  }
+  
+  .contact-section38 ul li svg {
+    color: rgb(30, 144, 255);
+  }
+  
+  /* Print Styles */
+  @media print {
+    .resume38 {
+      border: none;
+      border-radius: 0;
+      width: 100%;
+      margin: 0;
+      page-break-after: always;
+    }
+  
+    .left-side38,
+    .right-side38 {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .left-side38 {
+      background-color: white;
+    }
+  
+    .vertical-line {
+      display: none;
+    }
+  
+    .profile-pic38 {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .section38 h3 {
+      color: black;
+    }
+  
+    .section38 ul li svg {
+      color: black;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .resume38 {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .left-side38,
+    .right-side38 {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .profile-section38 {
+      border-bottom: 1px solid #ccc;
+    }
+  
+    .contact-section38 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+  
+    .section38 {
+      margin-top: 10px;
+    }
+  
+    .section38 h3 {
+      font-size: 16px;
+    }
+  
+    .profile-pic38 {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  

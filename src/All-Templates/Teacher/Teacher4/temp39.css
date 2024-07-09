@@ -1,0 +1,78 @@
+.app39 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 800px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto; /* Centers the content */
+  }
+  
+  .content39 {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+    justify-content: space-between;
+  }
+  
+  .left39, .right39 {
+    width: 45%; /* Full width on smaller screens */
+    margin-bottom: 20px; /* Adds spacing between sections */
+  }
+  
+  .content39 h1, .content39 h2, .content39 h3, .content39 h4 {
+    color: #DAA520;
+  }
+  
+  .content39 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .content39 li {
+    margin-bottom: 5px;
+  }
+  
+  .header39 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header39 h1 {
+    font-size: 2.5em;
+    color: #DAA520;
+  }
+  
+  .summary39, .work-history39, .contact39, .skills39, .education39, .certifications39 {
+    margin-bottom: 20px;
+  }
+  
+  .summary39 h2, .work-history39 h2, .contact39 h2, .skills39 h2, .education39 h2, .certifications39 h2 {
+    border-bottom: 2px solid #DAA520;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content39 {
+      flex-direction: column; /* Stacks sections vertically on smaller screens */
+    }
+  
+    .left39, .right39 {
+      width: 100%; /* Full width for each section on smaller screens */
+    }
+  }
+  
+  @media print {
+    .app39 {
+      width: 100%; /* Utilizes full page width for printing */
+      padding: 0; /* Removes padding for printing */
+    }
+  
+    .header39 {
+      display: none; /* Hides the header for printing */
+    }
+  
+    .content39 {
+      display: block; /* Ensures sections stack vertically for printing */
+      width: 100%;
+    }
+  }
+  

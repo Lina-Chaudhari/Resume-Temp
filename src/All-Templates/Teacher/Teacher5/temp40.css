@@ -1,0 +1,134 @@
+.App40 {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-content40 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side40, .right-side40 {
+  flex: 1;
+}
+
+.left-side40 {
+  margin-right: 20px;
+}
+
+.header40 {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.profile-img40 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.header-info40 {
+  margin-left: 20px;
+}
+
+.header-info40 h1 {
+  font-size: 24px;
+  color: #b5651d;
+}
+
+.header-info40 h2 {
+  font-size: 18px;
+  color: white;
+  background-color: #b5651d;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.contact-info40 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contact-info40 .icon {
+  margin-right: 5px;
+  color: #b5651d;
+  margin-left: 15px;
+}
+
+.contact-info40 .icon:first-child {
+  margin-left: 0;
+}
+
+.about-me40 {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.about-me40 h3 {
+  color: #b5651d;
+  margin-bottom: 10px;
+}
+
+.about-me40 p {
+  color: #333;
+}
+
+.education40, .experience40, .expertise40 {
+  padding: 20px;
+}
+
+.education40 h3, .experience40 h3, .expertise40 h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.education40 p, .experience40 p, .expertise40 ul, .expertise40 li {
+  color: #555;
+}
+
+.expertise40 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expertise40 li {
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .main-content40 {
+    flex-direction: column;
+  }
+
+  .left-side40, .right-side40 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media print {
+  .App40 {
+    box-shadow: none;
+    border: none;
+  }
+
+  .header40, .about-me40, .education40, .experience40, .expertise40 {
+    page-break-inside: avoid;
+  }
+
+  .contact-info40 .icon {
+    color: black;
+  }
+
+  .header-info40 h2 {
+    background-color: black;
+    color: white;
+  }
+}
