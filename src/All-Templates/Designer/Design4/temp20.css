@@ -1,0 +1,160 @@
+/* General Styles */
+.resume-container20 {
+  display: flex;
+  font-family: Arial, sans-serif;
+  width: 800px;
+  font-size: 15px;
+  border: 2px solid transparent;
+}
+
+.resume-sidebar20 {
+  position: relative;
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.profile-image20 {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-info20, .social-media20, .skills-section20 {
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.sidebar-canvas20 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.resume-main20 {
+  width: 70%;
+  padding: 20px;
+}
+
+.resume-container20 h1, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.resume-container20 h2 {
+  margin: 0;
+  padding: 10px 20px;
+  position: relative;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.hed2 {
+  margin: 0;
+  padding: 10px 20px;
+  position: relative;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.profile-section20, .experience-section20, .education-section20 {
+  margin-top: 20px;
+}
+
+.experience20 {
+  margin-top: 10px;
+}
+
+.skills-list20 {
+  list-style-type: square;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.skills-list20 li {
+  color: black;
+  margin-left: 10px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .resume-container20 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .resume-sidebar20, .resume-main20 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .resume-sidebar20 {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
+  .resume-sidebar20 .profile-image20 {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .resume-main20 {
+    padding-top: 20px;
+  }
+
+  .resume-container20 h1, .resume-container20 h2 {
+    font-size: 1.2em;
+  }
+}
+
+/* Media Query for Print */
+@media print {
+  .resume-container20 {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .resume-sidebar20, .resume-main20 {
+    width: 100%;
+    padding: 0;
+  }
+
+  .resume-sidebar20 {
+    background-color: white;
+    color: black;
+  }
+
+  .resume-main20 {
+    padding-top: 0;
+  }
+
+  .resume-container20 h1, .resume-container20 h2 {
+    background-color: white;
+    color: black;
+  }
+
+  /* Hide interactive elements and non-essential visuals for print */
+  button, .color-switcher, .sidebar-canvas20 {
+    display: none;
+  }
+}

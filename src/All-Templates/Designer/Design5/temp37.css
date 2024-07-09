@@ -1,0 +1,163 @@
+
+.resume-container37 {
+    font-family: Arial, sans-serif;
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  .header37 {
+    text-align: center;
+    background-color: #E0F7FA;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .header37 h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .header37 p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .main37 {
+    display: flex;
+  }
+  
+  .left-column37 {
+    width: 70%;
+  }
+  
+  .right-column37 {
+    width: 30%;
+    padding-left: 20px;
+  }
+  
+  .h237 {
+    color: #00ACC1;
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  .job37 h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .job37 p {
+    margin: 0;
+  }
+  
+  .left-column37 ul {
+    padding-left: 20px;
+  }
+  
+  .left-column37 ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+  }
+  
+  .skills37 ul, .education37 p {
+    margin: 5px 0;
+  }
+  
+  .skills37 ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .skills37 ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .skills37 ul li svg {
+    margin-right: 8px;
+    color: #00ACC1;
+  }
+  
+  .color-switcher {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .color-list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Media Query for Mobile */
+  @media screen and (max-width: 768px) {
+    .resume-container37 {
+      width: 100%;
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .header37 {
+      padding: 10px;
+    }
+  
+    .header37 h1 {
+      font-size: 2em;
+    }
+  
+    .main37 {
+      display: block;
+    }
+  
+    .left-column37, .right-column37 {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .right-column37 {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Media Query for Print */
+  @media print {
+    .resume-container37 {
+      width: 100%;
+      border: none;
+      margin: 0;
+      padding: 0;
+      box-shadow: none;
+    }
+  
+    .header37 {
+      padding: 10px;
+      background-color: #ffffff;
+    }
+  
+    .main37 {
+      display: block;
+    }
+  
+    .left-column37, .right-column37 {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .right-column37 {
+      margin-top: 20px;
+    }
+  
+    /* Hide buttons for print */
+    button, .color-switcher {
+      display: none;
+    }
+  }
+  
