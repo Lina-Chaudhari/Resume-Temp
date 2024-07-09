@@ -1,0 +1,178 @@
+
+.App42 {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header42 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic42 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .header-left42 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-details42 {
+    flex: 1;
+  }
+  
+  .contact-info42 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #00c8aa;
+    padding: 20px;
+  }
+  
+  .contact-info42 p {
+    margin-right: 20px;
+    white-space: nowrap;
+  }
+  
+  .contact-info42 p svg {
+    margin-right: 5px;
+  }
+  
+  .expertise42 {
+    margin-bottom: 20px;
+  }
+  
+  .expertise42 h3 {
+    margin-bottom: 10px;
+  }
+  
+  .expertise-tags42 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .expertise-tags42 span {
+    background-color: #00c8aa;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .work-experience42 {
+    margin-bottom: 20px;
+  }
+  
+  .job42 {
+    margin-bottom: 20px;
+  }
+  
+  .job42 h4 {
+    margin-bottom: 5px;
+  }
+  
+  .job42 h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .job42 h5 span {
+    font-weight: normal;
+    color: #666;
+    margin-left: 10px;
+  }
+  
+  .period42 {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .job42 ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .job42 ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Heading tag styles */
+  .header42 h1,
+  .header42 h2,
+  .expertise42 h3,
+  .work-experience42 h3,
+  .job42 h4 {
+    color: #00c8aa; /* Blue color */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .header42 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .profile-pic42 {
+      margin-bottom: 10px;
+    }
+  
+    .contact-info42 p {
+      margin-right: 10px;
+    }
+  
+    .expertise-tags42 span {
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+  }
+  
+  /* Print styles */
+  @media print {
+    .App42 {
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+      box-shadow: none;
+      border-radius: 0;
+    }
+  
+    .header42 {
+      margin-bottom: 10px;
+    }
+  
+    .profile-pic42 {
+      display: none; /* Hide profile pic on print */
+    }
+  
+    .contact-info42 {
+      background-color: transparent;
+      padding: 0;
+    }
+  
+    .contact-info42 p {
+      margin-right: 0;
+    }
+  
+    .expertise-tags42 span {
+      background-color: transparent;
+      padding: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+  
+    .job42 ul {
+      list-style-type: none; /* Remove bullets on print */
+      margin-left: 0;
+    }
+  }
+  
