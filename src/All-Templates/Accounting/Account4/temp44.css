@@ -1,0 +1,213 @@
+:root {
+  --primary-bg: #28555E;
+  --primary-text: white;
+  --secondary-bg: #f5f5f5;
+  --text-color: #333;
+}
+
+.AppContainer44 {
+  display: flex;
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  width: 800px;
+}
+
+.LeftColumn44 {
+  width: 35%;
+  background-color: var(--primary-bg);
+  color: white;
+  padding: 20px;
+}
+
+.RightColumn44 {
+  width: 65%;
+  padding: 20px;
+}
+
+/* Profile.css */
+.ProfileContainer44 {
+  text-align: center;
+  padding: 20px;
+}
+
+.ProfileImage44 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.Name44 {
+  font-size: 24px;
+  margin: 10px 0 0;
+}
+
+.Position44 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  color: #ddd;
+}
+
+/* Contact.css */
+.ContactContainer44 {
+  margin-top: 20px;
+}
+
+.ContactItem44 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Icon44 {
+  margin-right: 10px;
+}
+
+.ContactText44 {
+  font-size: 14px;
+}
+
+/* Education.css */
+.EducationContainer44 {
+  margin-top: 20px;
+  color: #ddd;
+}
+
+.EducationTitle44 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.EducationItem44 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.EducationItem44 h4 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.EducationItem44 p {
+  margin: 0;
+  color: #ddd;
+}
+
+/* Experience.css */
+.ExperienceContainer44 {
+  margin-top: 20px;
+}
+
+.ExperienceTitle44 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ExperienceItem44 {
+  margin-bottom: 20px;
+}
+
+.ExperienceItem44 h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ExperienceItem44 p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Skill.css */
+.SkillContainer44 {
+  margin-top: 20px;
+  color: #ddd;
+}
+
+.SkillTitle44 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.SkillItem44 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #ddd;
+}
+
+/* Awards.css */
+.AwardsContainer44 {
+  margin-top: 20px;
+  color: #ddd;
+}
+
+.AwardsTitle44 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.AwardsItem44 {
+  font-size: 14px;
+  color: #ddd;
+}
+.AwardsItem44 p {
+  color: #ddd;
+}
+
+/* Summary.css */
+.SummaryContainer44 {
+  margin-top: 20px;
+}
+
+.SummaryTitle44 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.SummaryText44 {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .AppContainer44 {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .LeftColumn44, .RightColumn44 {
+    width: 100%;
+  }
+}
+
+@media print {
+  .AppContainer44 {
+    width: 100%;
+    display: block;
+  }
+
+  .LeftColumn44, .RightColumn44 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .ProfileImage44 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .Name44 {
+    font-size: 20px;
+  }
+
+  .Position44 {
+    font-size: 14px;
+  }
+
+  /* Adjust other styles as needed for print layout */
+}

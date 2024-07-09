@@ -1,0 +1,189 @@
+
+:root {
+    --heading-blue: #007bff; }
+  
+  .resume-container43 {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+  
+  .sidebar43 {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .profile-pic43 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .contact-info43 {
+    margin: 20px 0;
+  }
+  
+  .contact-info43 p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+  
+  .skills43, .languages43 {
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  .skills43 h3, .languages43 h3 {
+    font-size: 1.2em;
+    color: var(--heading-blue); /* Apply heading blue color */
+  }
+  
+  .skills43 ul, .languages43 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills43 li, .languages43 li {
+    margin: 5px 0;
+    padding-left: 15px;
+    position: relative;
+  }
+  
+  .skills43 li::before, .languages43 li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #333;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 1px; /* Creates a square */
+  }
+  
+  .main-content43 {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .main-content43 h1 {
+    margin: 0;
+    font-size: 2em;
+    color: var(--heading-blue); /* Apply heading blue color */
+  }
+  
+  .main-content43 h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: var(--heading-blue); /* Apply heading blue color */
+  }
+  
+  .main-content43 section {
+    margin: 20px 0;
+  }
+  
+  .main-content43 h3 {
+    font-size: 1.5em;
+    color: var(--heading-blue); /* Apply heading blue color */
+  }
+  
+  .main-content43 h4 {
+    font-size: 1.2em;
+    margin: 10px 0 5px 0;
+    color: var(--heading-blue); /* Apply heading blue color */
+  }
+  
+  .main-content43 p, .main-content43 ul {
+    margin: 5px 0;
+  }
+  
+  .main-content43 ul {
+    padding-left: 20px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .resume-container43 {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .sidebar43 {
+      width: 100%;
+    }
+  
+    .main-content43 {
+      width: 100%;
+    }
+  
+    .profile-pic43 {
+      width: 120px;
+      height: 120px;
+    }
+    
+    .skills43, .languages43 {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .resume-container43 {
+      flex-direction: column;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .sidebar43 {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .main-content43 {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .profile-pic43 {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
+  /* Print styles */
+  @media print {
+    .resume-container43 {
+      display: block;
+      width: 100%;
+      margin: 0;
+    }
+  
+    .sidebar43, .main-content43 {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .profile-pic43 {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .skills43 h3, .languages43 h3,
+    .main-content43 h1, .main-content43 h2, .main-content43 h3, .main-content43 h4 {
+      color: #000; /* Default color for print */
+    }
+  
+    /* Hide interactive elements */
+    button, input[type="file"] {
+      display: none;
+    }
+  }
+  
