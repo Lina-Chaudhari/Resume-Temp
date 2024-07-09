@@ -1,0 +1,130 @@
+.App32 {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.header32 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #003d80;
+  padding: 20px;
+}
+
+.profile-image32 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-info32 h1 {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.header-info32 h2 {
+  margin: 0;
+  font-size: 18px;
+  color: white;
+}
+
+.main-content32 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column32,
+.right-column32 {
+  width: 48%;
+}
+
+.contact-info32 p,
+.education32 p,
+.skills32 ul,
+.languages32 p,
+.about-me32 p,
+.job32 p,
+.reference32 p {
+  margin: 10px 0;
+}
+
+.skills32 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.h332 {
+  font-size: 20px;
+  color: #333;
+}
+
+.hr32 {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.App32 i {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .App32 {
+    padding: 10px;
+  }
+
+  .main-content32 {
+    flex-direction: column;
+  }
+
+  .left-column32,
+  .right-column32 {
+    width: 100%;
+  }
+}
+
+@media print {
+  .App32 {
+    max-width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+
+  .header32 {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .header-info32 h1,
+  .header-info32 h2 {
+    color: #000;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  .profile-image32 {
+    display: none;
+  }
+
+  .main-content32 {
+    margin-top: 20px;
+  }
+
+  .h332 {
+    font-size: 18px;
+    color: #333;
+  }
+
+  .hr32 {
+    display: none;
+  }
+}

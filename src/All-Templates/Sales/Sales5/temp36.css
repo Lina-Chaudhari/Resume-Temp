@@ -1,0 +1,230 @@
+
+.resume-container36 {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  max-width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background: #fff;
+}
+
+.header36 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.profile-image36 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.contact-info36 {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name-job36 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 -5px;
+}
+
+.contact-details36 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 8px;
+}
+
+.contact-details36 p {
+  display: inline;
+  margin: 0;
+}
+
+.contact-details36 p + p::before {
+  content: " | ";
+}
+
+.section36 {
+  margin-bottom: 20px;
+}
+
+.section36 h3 {
+  background: #e5e5e5;
+  padding: 10px;
+  color: #091f5b;
+  margin: 0 -20px;
+  margin-bottom: 10px;
+  box-shadow: #091f5b 0px 0px 0px 2px;
+  text-transform: uppercase;
+}
+
+.section36 p, .section36 ul {
+  margin: 0 0 10px 0;
+}
+
+.section36 ul {
+  padding-left: 20px;
+}
+
+.section36 .education36, .section36 .job36 {
+  margin-bottom: 10px;
+}
+
+.section36 .education36 h4, .section36 .job36 h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.section36 .education36 p, .section36 .job36 p {
+  margin: 0;
+  color: #666;
+}
+
+.split-section36 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills36, .references36 {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.skills36 {
+  margin-right: 20px;
+}
+
+.references36 {
+  margin-left: 20px;
+}
+
+.split-section36 .section36 {
+  margin-bottom: 0;
+}
+
+/* Add blue-colored square before skills list items */
+.skills36 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills36 ul li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.skills36 ul li::before {
+  content: '•';
+  color: #091f5b;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+  .resume-container36 {
+    padding: 10px;
+    max-width: 100%;
+    border: none;
+  }
+
+  .header36 {
+    display: block;
+    text-align: center;
+  }
+
+  .profile-image36 {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px auto;
+  }
+
+  .contact-info36 {
+    align-items: center;
+  }
+
+  .contact-details36 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .split-section36 {
+    flex-direction: column;
+    margin: 0 -10px;
+  }
+
+  .skills36, .references36 {
+    margin: 0 10px;
+    margin-bottom: 20px;
+  }
+
+  .section36 h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Media Query for Print */
+@media print {
+  .resume-container36 {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background: none;
+  }
+
+  .header36 {
+    display: block;
+    text-align: center;
+  }
+
+  .profile-image36 {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .contact-info36 {
+    align-items: center;
+  }
+
+  .contact-details36 {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .split-section36 {
+    display: block;
+    margin: 0;
+  }
+
+  .skills36, .references36 {
+    margin: 0 0 20px 0;
+    page-break-inside: avoid;
+  }
+
+  .section36 h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Hide interactive elements and non-essential visuals for print */
+  button, .color-switcher {
+    display: none;
+  }
+}

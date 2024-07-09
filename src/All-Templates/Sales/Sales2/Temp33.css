@@ -1,0 +1,190 @@
+.resume33 {
+  display: flex;
+  width: 800px;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.left-side33,
+.right-side33 {
+  flex: 1;
+  padding: 20px;
+}
+
+.left-side33 {
+  background-color: #f9f9f9;
+  border-right: 2px solid #ddd;
+}
+
+.header33 {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header33 h1 {
+  margin: 5px;
+  align-items: center;
+}
+
+.section33 {
+  margin-bottom: 20px;
+}
+
+.section33 h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.achievements33,
+.certifications33,
+.projects33 h5,
+.experience-item33 p,
+h6,
+.header33 p {
+  color: rgb(30, 144, 255);
+}
+
+.skills33 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills33 ul li {
+  margin-bottom: 5px;
+  text-decoration: underline; /* Underline list items */
+  position: relative;
+  padding-left: 20px; /* Space for the square bullet */
+}
+
+.skills33 ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: rgb(30, 144, 255); /* Square bullet color */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Make the bullet a square */
+}
+
+.certifications33 div,
+.projects33 div {
+  margin-bottom: 10px;
+}
+
+.experience-item33 {
+  margin-bottom: 20px;
+}
+
+.header33 i,
+.experience-details33 h6 i,
+.education-item33 h6 i,
+.certifications33 h5 i {
+  color: rgb(30, 144, 255);
+  margin-right: 10px;
+}
+
+.experience-details33 {
+  display: flex;
+  flex-wrap: wrap; /* Ensures items stay on one line */
+  gap: 10px; /* Adjust spacing as needed */
+}
+
+.experience-details33 h6 {
+  margin: 0;
+}
+
+.education-item33 h6 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.education-item33 h6:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .resume33 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .left-side33,
+  .right-side33 {
+    width: 100%;
+    padding: 10px;
+    border-right: none;
+  }
+
+  .header33 {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .header33 h1 {
+    font-size: 20px;
+  }
+
+  .header33 h2 {
+    font-size: 16px;
+  }
+
+  .section33 h2 {
+    font-size: 18px;
+  }
+
+  .skills33 ul li {
+    text-decoration: none; /* Remove underline for list items */
+  }
+
+  .skills33 ul li::before {
+    display: none; /* Hide square bullet */
+  }
+}
+
+@media print {
+  .resume33 {
+    max-width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    background-color: #fff;
+    margin: 0;
+  }
+
+  .left-side33,
+  .right-side33 {
+    width: 100%;
+    padding: 10px;
+    border-right: none;
+  }
+
+  .header33 {
+    text-align: left;
+  }
+
+  .header33 h1,
+  .header33 h2 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  .section33 h2 {
+    font-size: 18px;
+  }
+
+  .skills33 ul li {
+    text-decoration: none; /* Remove underline for list items */
+  }
+
+  .skills33 ul li::before {
+    display: none; /* Hide square bullet */
+  }
+}
