@@ -1,0 +1,193 @@
+
+.container53 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-left: 6px solid #ffd700;
+    border-bottom: 6px solid #ffd700;
+    background-color: #f8f9fa;
+  }
+  
+  .header53 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .name53 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .job-title-header53 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 5px 0;
+  }
+  
+  .contact-info53 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .contact-info53 p {
+    margin: 5px 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon53 {
+    margin-right: 5px;
+    color: #ffd700;
+  }
+  
+  .section-title53 {
+    color: #000;
+    font-size: 24px;
+  }
+  
+  .job-title53 {
+    font-size: 20px;
+    color: #000;
+  }
+  
+  .company-name53 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .date-range53 {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .description53 {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .description53 ul {
+    padding-left: 20px;
+  }
+  
+  .skill-list53 {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skill-item53 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Media Queries for Mobile Devices */
+  @media screen and (max-width: 768px) {
+    .container53 {
+      padding: 10px;
+    }
+  
+    .name53 {
+      font-size: 24px;
+    }
+  
+    .job-title-header53 {
+      font-size: 18px;
+    }
+  
+    .contact-info53 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-info53 p {
+      margin: 3px 0;
+    }
+  
+    .section-title53 {
+      font-size: 20px;
+    }
+  
+    .job-title53 {
+      font-size: 18px;
+    }
+  
+    .company-name53 {
+      font-size: 16px;
+    }
+  
+    .date-range53 {
+      font-size: 12px;
+    }
+  
+    .description53 {
+      font-size: 14px;
+    }
+  
+    .skill-item53 {
+      font-size: 14px;
+    }
+  }
+  
+  /* Print Styles */
+  @media print {
+    .container53 {
+      border: none;
+      background-color: #fff;
+    }
+  
+    .header53 {
+      margin-bottom: 10px;
+    }
+  
+    .name53 {
+      font-size: 28px;
+    }
+  
+    .job-title-header53 {
+      font-size: 18px;
+    }
+  
+    .contact-info53 {
+      justify-content: flex-start;
+    }
+  
+    .contact-info53 p {
+      font-size: 14px;
+    }
+  
+    .section-title53 {
+      font-size: 22px;
+    }
+  
+    .job-title53 {
+      font-size: 18px;
+    }
+  
+    .company-name53 {
+      font-size: 16px;
+    }
+  
+    .date-range53 {
+      font-size: 12px;
+    }
+  
+    .description53 {
+      font-size: 14px;
+    }
+  
+    .skill-item53 {
+      font-size: 14px;
+    }
+  
+    .no-print {
+      display: none;
+    }
+  }
+  

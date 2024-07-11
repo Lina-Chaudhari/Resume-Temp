@@ -1,0 +1,96 @@
+/* App.css */
+
+.container55 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .header55 {
+    display: flex;
+    background-color: #0a3d62;
+    color: white;
+    padding: 20px;
+  }
+  
+  .profile-image55 {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .header-text55 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .name55 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .position55 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  .contact55 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .section55 {
+    margin: 20px 0;
+  }
+  
+  .section-title55 {
+    margin-bottom: 10px;
+    color: #0a3d62;
+  }
+  
+  .experience-item55,
+  .education-item55,
+  .certification-item55 {
+    margin-bottom: 10px;
+  }
+  
+  /* Mobile styles */
+  @media screen and (max-width: 600px) {
+    .header55 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .profile-image55 {
+      margin: 0 0 10px 0;
+    }
+  
+    .contact55 {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Print styles */
+  @media print {
+    .container55 {
+      background-color: white;
+      color: black;
+    }
+    
+    .header55 {
+      background-color: black;
+      color: white;
+    }
+    
+    .section55 {
+      page-break-inside: avoid;
+    }
+  }
+  

@@ -1,0 +1,157 @@
+/* src/temp52.css */
+.resume-container52 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fdfdfd;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header52 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .avatar52 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #00a99d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .name52 {
+    margin: 0;
+    font-size: 24px;
+    color: #00a99d;
+  }
+  
+  .contact-details52 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 14px;
+  }
+  
+  .section52 {
+    margin-bottom: 20px;
+  }
+  
+  .section-header52 {
+    margin-bottom: 10px;
+    color: #00a99d;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-content52 {
+    padding-left: 20px;
+  }
+  
+  .list-item52 {
+    margin-bottom: 10px;
+  }
+  
+  .education-item52 {
+    margin-bottom: 15px;
+  }
+  
+  .work-experience-item52 {
+    margin-bottom: 15px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .resume-container52 {
+      padding: 10px;
+    }
+  
+    .header52 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .avatar52 {
+      width: 80px;
+      height: 80px;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .name52 {
+      font-size: 20px;
+    }
+  
+    .contact-details52 {
+      align-items: flex-start;
+      font-size: 12px;
+    }
+  
+    .section-header52 {
+      font-size: 16px;
+    }
+  
+    .section-content52 {
+      padding-left: 10px;
+    }
+  }
+  
+  /* Print Styling */
+  @media print {
+    .resume-container52 {
+      max-width: none;
+      margin: 0;
+      padding: 0;
+      background: white;
+      font-size: 12px;
+    }
+  
+    .header52 {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+  
+    .avatar52 {
+      width: 60px;
+      height: 60px;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+  
+    .name52 {
+      font-size: 18px;
+    }
+  
+    .contact-details52 {
+      align-items: flex-start;
+      font-size: 10px;
+    }
+  
+    .section-header52 {
+      font-size: 14px;
+    }
+  
+    .section-content52 {
+      padding-left: 5px;
+    }
+  
+    .list-item52 {
+      margin-bottom: 5px;
+    }
+  
+    .education-item52,
+    .work-experience-item52 {
+      margin-bottom: 10px;
+    }
+  }
+  

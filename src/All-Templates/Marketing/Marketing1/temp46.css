@@ -1,0 +1,187 @@
+
+.resume46 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 800px;
+    background-color: #f7f7f7;
+  }
+  
+  .left-column46, .right-column46 {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  
+  .left-column46 {
+    width: 30%;
+  }
+  
+  .right-column46 {
+    width: 65%;
+    border-left: 2px solid #072675;
+  }
+  
+  .header46 {
+    text-align: center;
+    background-color: #072675;
+    padding: 20px;
+    margin: -10px;
+  }
+  
+  .header46 h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .header46 h2 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .header46 p {
+    margin: 5px 0;
+    color: white;
+    text-align: left;
+  }
+  
+  .experience46, .education46, .certifications46, .skills46 {
+    margin-bottom: 20px;
+  }
+  
+  .experience46 h3, .education46 h3, .certifications46 h3, .skills46 h3 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .experience46 h4, .education46 h4, .certifications46 h4, .skills46 h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .experience46 p, .education46 p, .certifications46 p, .skills46 ul {
+    margin: 5px 0;
+  }
+  
+  .experience46 ul, .skills46 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  .skills46 {
+    margin-top: 40px;
+  }
+  
+  .skills46 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills46 ul li {
+    background-color: #f0f4f7;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .resume46 {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .left-column46, .right-column46 {
+      width: 100%;
+      margin: 5px 0;
+      padding: 15px;
+    }
+  
+    .header46 {
+      padding: 15px;
+    }
+  
+    .header46 h1 {
+      font-size: 20px;
+    }
+  
+    .header46 h2 {
+      font-size: 16px;
+    }
+  
+    .header46 p {
+      font-size: 14px;
+    }
+  
+    .experience46 h3, .education46 h3, .certifications46 h3, .skills46 h3 {
+      font-size: 18px;
+    }
+  
+    .experience46 h4, .education46 h4, .certifications46 h4, .skills46 h4 {
+      font-size: 14px;
+    }
+  
+    .skills46 ul li {
+      padding: 6px;
+    }
+  }
+  
+  /* Print Styles */
+  @media print {
+    .resume46 {
+      width: 100%;
+      background-color: white;
+    }
+  
+    .left-column46, .right-column46 {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      border: none;
+      box-shadow: none;
+    }
+  
+    .header46 {
+      margin: 0;
+      padding: 10px;
+    }
+  
+    .header46 h1 {
+      font-size: 20px;
+    }
+  
+    .header46 h2 {
+      font-size: 16px;
+    }
+  
+    .header46 p {
+      font-size: 12px;
+    }
+  
+    .experience46 h3, .education46 h3, .certifications46 h3, .skills46 h3 {
+      font-size: 18px;
+    }
+  
+    .experience46 h4, .education46 h4, .certifications46 h4, .skills46 h4 {
+      font-size: 14px;
+    }
+  
+    .skills46 ul li {
+      padding: 6px;
+    }
+  
+    .no-print {
+      display: none;
+    }
+  }
+  

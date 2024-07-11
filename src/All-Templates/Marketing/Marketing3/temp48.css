@@ -1,0 +1,103 @@
+
+  .resume48 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  }
+  
+  .header48 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title48 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .contact-info48 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    color: rgb(30, 144, 255);
+  }
+  
+  .main-content48 {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .left-column48 {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-column48 {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .summary48, .experience48, .education48, .achievements48, .skills48 {
+    margin-bottom: 20px;
+  }
+  
+  .summary48 h2, .experience48 h2, .education48 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .summary48 p, .experience48 p, .education48 p, .achievements48 li, .skills48 li {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .experience48 h3, .education48 h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .experience48 ul, .achievements48 ul, .skills48 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experience48 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .experience48 li {
+    margin: 5px 0;
+  }
+  
+  .achievements48, .skills48 {
+    background-color: #f0f8ff;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .achievements48 h3, .skills48 h3 {
+    color: rgb(30, 144, 255);
+    margin-bottom: 10px;
+  }
+  
+  .achievements48 li, .skills48 li {
+    margin: 10px 0;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .main-content48 {
+      flex-direction: column;
+    }
+  
+    .left-column48, .right-column48 {
+      padding: 10px;
+    }
+  }
+  

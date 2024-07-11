@@ -1,0 +1,107 @@
+.App47 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: 800px;
+  }
+  
+  .main-content47 {
+    display: flex;
+  }
+  
+  .side-content47 {
+    margin-left: 20px;
+    width: 30%;
+  }
+  .header47 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px dotted green;
+    padding: 10px;
+  }
+  .header-left47{
+    background-color:green ;
+    width: 50%;
+    padding: 20px;
+  }
+  .header-left47 h1 {
+    font-size: 36px;
+    color: white;
+  }
+  
+  .header-left47 h2 {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .header-right47 p {
+    margin: 0;
+    text-align: left;
+  }
+  .summary47 {
+    margin: 20px 0;
+  }
+  
+  .summary47 p {
+    margin: 0;
+  }
+  .experience47 {
+    width: 65%;
+  }
+  
+  .experience47 h4 {
+    font-size: 24px;
+    border-bottom: 5px dotted green;
+    width: 80%;
+  }
+  
+  .job47 {
+    margin: 20px 0;
+  }
+  
+  .job47 h4 {
+    font-size: 18px;
+  }
+  
+  .job47 p {
+    font-style: italic;
+    margin: 5px 0;
+  }
+  
+  .job47 ul {
+    padding-left: 20px;
+  }
+  
+  .job47 ul li {
+    margin: 5px 0;
+  }
+  .education47 {
+    margin: 20px 0;
+  }
+  
+  .education47 h4 {
+    font-size: 24px;
+    border-bottom: 5px dotted green;
+    width: 80%;
+  }
+  
+  .education47 p {
+    margin: 5px 0;
+  }
+  .skills47 {
+    margin: 20px 0;
+  }
+  
+  .skills47 h4 {
+    font-size: 24px;
+    border-bottom: 5px dotted green;
+    width: 90%;
+  }
+  
+  .skills47 ul {
+    padding-left: 20px;
+  }
+  
+  .skills47 ul li {
+    margin: 5px 0;
+  }
+            

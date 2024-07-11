@@ -1,0 +1,106 @@
+.resume-container49 {
+    display: flex;
+    font-family: Arial, sans-serif;
+    width: 800px;
+  }
+  
+  .left-column49 {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .right-column49 {
+    width: 30%;
+    background-color: #23395d;
+    color: white;
+    padding: 20px;
+  }
+  
+  .section-title49 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .profile-image49 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20%;
+  }
+  
+  .contact-info49 {
+    margin: 20px 0;
+  }
+  
+  .experience-item49, .education-item49 {
+    margin-bottom: 20px;
+  }
+  
+  .skills-list49, .achievements-list49 {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-item49, .achievement-item49 {
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .resume-container49 {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .left-column49, .right-column49 {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .profile-image49 {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10%;
+    }
+  
+    .contact-info49 {
+      margin: 10px 0;
+    }
+  
+    .experience-item49, .education-item49 {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media print {
+    .resume-container49 {
+      width: 100%;
+    }
+  
+    .left-column49, .right-column49 {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .right-column49 {
+      background-color: white;
+      color: black;
+    }
+  
+    .section-title49 {
+      border-bottom: 1px solid #000;
+    }
+  
+    .profile-image49 {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .contact-info49, .experience-item49, .education-item49 {
+      margin: 10px 0;
+    }
+  
+    .skill-item49, .achievement-item49 {
+      margin-bottom: 5px;
+    }
+  }
+  
